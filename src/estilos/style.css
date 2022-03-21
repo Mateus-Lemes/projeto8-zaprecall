@@ -1,0 +1,131 @@
+body {
+    background: #FB6B6B;
+    border: 1px solid #DBDBDB;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home img {
+    width: 136px;
+    height: 161px;
+}
+
+.home h1 {
+    margin: 13px 0 30px 0;
+    width: 257px;
+    height: 59px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.home button {
+    width: 246px;
+    height: 54px;
+    font-family: "recursive";
+    font-size: 18px;
+    font-weight: 400;
+    color: #D70900;
+    background: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+header {
+    height: 153px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    background-color: #FB6B6B;
+    width: 100%;
+}
+
+header img {
+    width: 52px;
+    height: 60px;
+}
+
+header h1 {
+    width: 203.17px;
+    height: 44px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 153px 0 70px 0;
+}
+
+.question-number {
+    width: 300px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: 0 auto 25px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-number p {
+    width: 87px;
+    height: 19px;
+    font-family: 'Recursive';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin-left: 15px;
+}
+
+.question-number ion-icon {
+    font-size: 23px;
+    color: #333333;
+    margin-right: 15px;
+    --ionicon-stroke-width: 50px;
+}
+
+footer {
+    width: 375px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    width: 145px;
+    height: 22px;
+    font-family: 'Recursive';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
